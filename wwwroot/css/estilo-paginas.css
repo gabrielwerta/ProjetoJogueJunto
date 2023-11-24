@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@400;500;600&family=Orbitron:wght@400;500;600;700;800;900&family=Oswald&display=swap');
+
+html {
+  background-color: #000551;
+}
+
+* {
+  font-family: "Orbitron", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #000551;
+  border-color: #007bff
+}
+
+.btn-block {
+  display: block;
+  width: 100%
+}
+
+
+
+/*==========menu lateral================*/
+nav.menu-lateral {
+  position: absolute;
+  width: 50px;
+  height: 100%;
+  background-color: #E0E2FF;
+  padding: 40px 0 40px 1%;
+  box-shadow: 3px 0 0 #EDB900;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  transition: .4S;
+
+}
+
+nav.menu-lateral.expandir {
+  width: 300px;
+
+}
+
+.btn-expandir {
+  width: 100%;
+  padding-left: 10px;
+}
+
+.btn-expandir>i {
+  color: rgb(166, 49, 17);
+  font-size: 24px;
+  cursor: pointer;
+}
+
+ul {
+  height: 100%;
+  list-style-type: none;
+}
+
+ul li.item-menu {
+  transition: .2s;
+}
+
+ul li.ativo {
+  background-color: #007bff;
+}
+
+ul li.item-menu a {
+  color: #000551;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 15px 4%;
+  display: flex;
+  margin-bottom: 20px;
+  line-height: 40px;
+}
+
+ul li.item-menu a .txt-link {
+  margin-left: 70px;
+  transition: .4s;
+  opacity: 0;
+
+}
+
+nav.menu-lateral.expandir .txt-link {
+  margin-left: 40px;
+  opacity: 1;
+}
+
+ul li.item-menu a .icon>i {
+  font-size: 30px;
+  margin-left: 10px;
+
+}
+
+
+
+
+
+
+
+/*===========fim===============*/
+
+/* -----Organização de Partidas de Vôlei ---- */
+
+.organizar-volei h3 {
+  font-size: 13px;
+
+}
+
+.organizar-volei {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0 0 1px;
+
+}
+
+.organizar-volei textarea {
+  background-color: none;
+  width: 36vh;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 2vh;
+  margin-left: 40px;
+
+}
+
+.organizar-volei form {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5vh;
+  padding: 0 0 0 3px;
+  margin-top: 20px;
+}
+
+.form-controle  {
+  background-color: none;
+  width: 36vh;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  margin-bottom: 2vh;
+}
+
+.organizar-volei button {
+  position: absolute;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 30vh;
+  margin-left: 70px;
+}
+
+
+
+/*----------fim---------- ----*/

@@ -1,0 +1,47 @@
+﻿@model CadastroModel
+@{
+    ViewData["Title"] = "Cadastrar usuário";
+    Layout = "_Layout";
+}
+<head>
+    <link rel="stylesheet" type="text/css" href="css/estilo-paginas.css">
+    <!--  CSS do Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <!-- Estilos customizados para esse template -->
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <link href="css/floating-labels - cadastro.css" rel="stylesheet">
+</head>
+
+<form class="form-signin" asp-controller="Cadastro" asp-action="Cadastrar" method="post">
+    <div class="text-center mb-4">
+        <h1 class="h3 mb-3 font-weight-normal">CADASTRO</h1>
+    </div>
+    <div class>
+        <label for="inputNome">Nome Completo</label>
+        <input type="text" asp-for="Nome" id="inputNome" class="form-control" placeholder="Nome Completo">
+        @Html.ValidationMessageFor(x => x.Nome)
+
+    </div>
+    <div class>
+        <label for="inputEmail">Endereço de email</label>
+        <input type="text" asp-for="Email" id="inputEmail" class="form-control" placeholder="Endereço de email">
+        @Html.ValidationMessageFor(x => x.Email)
+    </div>
+    <div class>
+        <label for="inputData">Data De Nascimneto</label>
+        <input type="text" asp-for="DataNascimento" id="inputData" class="form-control" placeholder="Data De Nacimento">
+        @Html.ValidationMessageFor(x => x.DataNascimento)
+    </div>
+    <div class>
+        <label for="inputPassword">Senha</label>
+        <input type="password" asp-for="Senha" id="inputPassword" class="form-control" placeholder="Senha">
+        @Html.ValidationMessageFor(x => x.Senha)
+    </div>
+
+    <button class="btn btn-lg btn-primary btn-block" type="submit">
+        CADASTRAR
+    </button>
+</form>

@@ -1,0 +1,500 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@400;500;600&family=Orbitron:wght@400;500;600;700;800;900&family=Oswald&display=swap');
+
+html {
+	background-color: #e0e1ec;
+}
+
+* {
+	font-family: "Orbitron", sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+* Estilos padrão para telas maiores */ body {
+	font-size: 16px;
+	padding: 0;
+	margin: 0;
+}
+
+section {
+	display: grid;
+	grid-template-columns: 1fr 3fr 1fr;
+	grid-template-rows: 7vh 26vh 60vh 7vh;
+	grid-template-areas: "nt nt nt"
+		"c c c"
+		"m p a"
+		"r r r"
+
+}
+
+.header-infor {
+	background-color: none;
+	/*grid-column:1/4;*/
+	grid-area: c;
+	display: flex;
+	align-items: baseline;
+	list-style-type: none;
+	margin: 2px;
+	padding: 20px 0 0 20px;
+	margin-left: 200px;
+
+
+}
+
+.header-infor li {
+	margin: 8px;
+	font-size: 15px;
+}
+
+
+
+nav {
+
+	background-color: #251e1e;
+	/*grid-column: 1/2;*/
+	grid-area: ;
+
+}
+
+
+
+
+aside {
+	background-color;
+	/*grid-column: 3/4;*/
+	grid-area: a;
+	width: 500px;
+
+}
+
+footer {
+	background-color: #101011;
+	/*grid-column: 1/4;*/
+	grid-area: r;
+
+}
+
+/*==========menu lateral================*/
+
+
+nav.menu-lateral {
+	width: 43px;
+	height: 100%;
+	background-color: #0919ed;
+	padding: 40px 0 40px 1%;
+	box-shadow: 3px 0 0 white;
+	position: fixed;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	transition: .5S;
+
+
+}
+
+nav.menu-lateral.expandir {
+	width: 300px;
+
+}
+
+.btn-expandir {
+	width: 100%;
+	padding-left: 10px;
+}
+
+.btn-expandir>i {
+	color: rgb(32, 17, 166);
+	font-size: 24px;
+	cursor: pointer;
+}
+
+ul {
+	height: 100%;
+	list-style-type: none;
+}
+
+ul li.item-menu {
+	transition: .2s;
+}
+
+ul li.ativo {
+	background-color: #2f0d97;
+
+}
+
+ul li.item-menu a {
+	color: aliceblue;
+	text-decoration: none;
+	font-size: 20px;
+	padding: 15px 4%;
+	display: flex;
+	margin-bottom: 20px;
+	line-height: 40px;
+}
+
+ul li.item-menu a .txt-link {
+	margin-left: 70px;
+	transition: .4s;
+	opacity: 0;
+
+}
+
+nav.menu-lateral.expandir .txt-link {
+	margin-left: 40px;
+	opacity: 1;
+}
+
+ul li.item-menu a .icon>i {
+	font-size: 30px;
+
+}
+
+
+/*===========fim===============*/
+
+/*============Cronometro===========*/
+.container {
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 1rem;
+	width: 100vh;
+	left: 90vh;
+	height: 50vh;
+	margin-top: -30%;
+	padding-top: 3rem;
+	background-color: none;
+}
+
+.container h1 {
+	color: #175cff;
+}
+
+.timer {
+	display: flex;
+	font-size: 55px;
+	font-weight: bold;
+	color: #333;
+}
+
+.time {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 10px;
+	margin-right: 10px;
+	color: #172953;
+	min-width: 90px;
+}
+
+.separator {
+	font-size: 60px;
+	padding: 0 10px;
+	color: #525763;
+}
+
+#milliseconds {
+	font-size: 30px;
+	color: #525763;
+}
+
+.buttons {
+	display: flex;
+	gap: 1rem;
+}
+
+.btn {
+	padding: 10px 20px;
+	font-size: 18px;
+	font-weight: bold;
+	border-radius: 30px;
+	cursor: pointer;
+	border: 1px solid #ccc;
+	transition: all 0.2s ease-in-out;
+}
+
+.btn:hover {
+	transform: scale(1.1);
+}
+
+#startBtn {
+	background-color: #175cff;
+	color: #fff;
+}
+
+#minutes,
+#seconds {
+	position: relative;
+}
+
+#minutes::before,
+#seconds::before {
+	position: absolute;
+	font-size: 12px;
+	top: 0;
+}
+
+#minutes::before {
+	content: "Minutes";
+}
+
+#seconds::before {
+	content: "Seconds";
+}
+
+/*---------fim--------*/
+.container-cronometro {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 2rem;
+	height: 0;
+	margin-top: 80px;
+	background-color: #f1f1f1;
+}
+
+/*-----------placar--------*/
+.container-placar {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 2rem;
+	height: 10vh;
+	margin-right: 1%;
+	background-color: none;
+
+}
+
+.container-placar input {
+	margin-bottom: 1px;
+	width: 30vh;
+	border-radius: 15px;
+}
+
+.container-placar button {
+	width: 30vh;
+	margin-bottom: px;
+	border-radius: 15px;
+}
+
+button[type="button"] {
+	background-color: #007bff;
+	color: #111212;
+	border: none;
+	cursor: pointer;
+	padding: 8px 10px;
+
+}
+
+/*---------tabelas-------*/
+main {
+	background-color: none;
+	grid-area: p;
+	display: flex;
+	flex-wrap: wrap;
+	width: 700px;
+	height: 80vh;
+
+
+
+}
+
+
+main div {
+	width: 150px;
+	height: 200px;
+	border-radius: 12px;
+	margin: 20px;
+	padding: 10px 0 2px 0px;
+	background-color: none;
+	border-radius: 12px;
+	margin-top: 10%;
+
+}
+
+
+main h1 {
+	background-color: #007bff;
+	height: 1px;
+	font-size: 20px;
+
+
+
+
+}
+
+aside input {
+	margin-bottom: 1px;
+	width: 30vh;
+	height: 20px;
+	border-radius: 15px;
+	background-color: ;
+	margin-top: auto;
+}
+
+
+.tabela td {
+	border-radius: px;
+	background-color: nome;
+	border-radius: 10px;
+	font-size: 20px;
+	margin-bottom: auto;
+}
+
+
+
+/* Estilos para telas menores que 600px 
+
+@media only screen and (width:600px) {
+
+	button[type="button"] {
+		background-color: #ff7700;
+		color: #111212;
+		border: none;
+		cursor: pointer;
+		padding: 2px 1px;
+
+	}
+
+	  	aside {
+	       background-color: red;
+	  		grid-area: auto;
+			width: 600px;
+			height: 400px;
+	
+	
+	  	}
+
+	.container-placar {
+		table-layout: 100px;
+
+
+	}
+
+
+	.container-placar div {
+		display: flex;
+		align-items: center;
+		gap: 1rem;
+		height: 2vh;
+		margin-left: 5%;
+		background-color: none;
+
+	}
+
+	.container-placar input {
+		margin-bottom: 1px;
+		width: 20vh;
+		border-radius: 15px;
+	}
+
+	.container-placar button {
+		width: 20vh;
+		margin-bottom: px;
+		border-radius: 15px;
+	}
+
+	.header-infor {
+		flex-direction: column;
+		background-color: none;
+		grid-area: c;
+
+		margin: 5px;
+		padding: 2px 0 0 2px;
+		margin-left: 100px;
+
+	}
+}
+*/
+/* Estilos padrão para telas menores */
+@media only screen and (max-width: 600px) {
+	section {
+		grid-template-rows: auto auto auto auto auto auto;
+	}
+
+	nav.menu-lateral.expandir {
+		position: absolute;
+		width: 300px;
+
+	}
+
+	button[type="button"] {
+		background-color: #ff7700;
+		color: #111212;
+		border: none;
+		cursor: pointer;
+		padding: 2px 1px;
+
+	}
+
+	.header-infor {
+		flex-direction: column;
+		margin-left: 0;
+		position: absolute;
+		margin-left: 20%;
+	}
+
+	aside {
+		grid-area: c;
+		width:200px
+		margin: 10px 10px;
+	}
+
+	main {
+		background-color: none;
+		grid-area: auto;
+		display: flex;
+		width: 100px;
+		margin-bottom: 10px;
+		margin-left: 100%;
+		margin-top: 200px;
+
+
+
+	}
+
+	.container-placar {
+		table-layout: 100px;
+
+
+	}
+
+
+	.container-placar div {
+		display: flex;
+		align-items: center;
+		gap: 0rem;
+		height: 1vh;
+		margin-left: 10%;
+		background-color: none;
+
+	}
+
+	.container-placar input {
+		margin-bottom: 1px;
+		width: 20vh;
+		border-radius: 15px;
+	}
+
+	.container-placar button {
+		width: 20vh;
+		margin-bottom: px;
+		border-radius: 15px;
+	}
+
+	#minutes,
+	#seconds {
+		position: relative;
+		font-size: 20px;
+	}
+
+	.separator {
+		font-size: 60px;
+		padding: 0 1px;
+		color: #525763;
+	}
+
+
+	/* Adicione mais ajustes conforme necessário */
+}

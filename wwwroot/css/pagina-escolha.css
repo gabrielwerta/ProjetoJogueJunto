@@ -1,0 +1,628 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@400;500;600&family=Orbitron:wght@400;500;600;700;800;900&family=Oswald&display=swap');
+
+html {
+  background-color: #000551;
+}
+
+* {
+  font-family: "Orbitron", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+
+
+
+/*==========menu lateral================*/
+nav.menu-lateral {
+  width: 50px;
+  height: 100%;
+  background-color: #E0E2FF;
+  padding: 40px 0 40px 1%;
+  box-shadow: 3px 0 0 #988c05;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  transition: .4S;
+
+}
+
+nav.menu-lateral.expandir {
+  width: 300px;
+
+}
+
+.btn-expandir {
+  width: 100%;
+  padding-left: 10px;
+}
+
+.btn-expandir>i {
+  color: rgb(166, 49, 17);
+  font-size: 24px;
+  cursor: pointer;
+}
+
+ul {
+  height: 100%;
+  list-style-type: none;
+}
+
+ul li.item-menu {
+  transition: .2s;
+}
+
+ul li.ativo {
+  background-color: #007bff;
+}
+
+ul li.item-menu a {
+  color: #000551;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 15px 4%;
+  display: flex;
+  margin-bottom: 20px;
+  line-height: 40px;
+}
+
+ul li.item-menu a .txt-link {
+  margin-left: 70px;
+  transition: .4s;
+  opacity: 0;
+
+}
+
+nav.menu-lateral.expandir .txt-link {
+  margin-left: 40px;
+  opacity: 1;
+}
+
+ul li.item-menu a .icon>i {
+  font-size: 30px;
+  margin-left: 10px;
+
+}
+
+
+
+
+
+
+
+/*===========fim===============*/
+
+
+
+/*-------------------------------------------*/
+
+.contanier {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2px 0 0 3px;
+
+}
+
+/*-----tela login ----*/
+
+
+.contanier-login {
+  position: relative;
+  height: 15vh;
+  margin-top: 10vh;
+  background-color: none;
+
+
+}
+
+#texto {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%)
+}
+
+.contanier-login h1,
+p,
+h2 {
+  color: #E0E2FF;
+}
+
+
+
+.login-h2 {
+  position: absolute;
+  margin-top: 20vh;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%)
+}
+
+.form-login {
+  max-width: 600px;
+  position: absolute;
+  margin-top: 40vh;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%)
+}
+
+.form-login>form {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-top: 50%;
+  border-radius: 10px;
+  background-color: #EDB900;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%)
+}
+
+.form-login input {
+  width: 35vh;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 1vh;
+  margin-left: 10%;
+  margin-top: 2%;
+}
+
+button[type="button"] {
+  background-color: #000551;
+  color: #def7f4;
+  border: none;
+  cursor: pointer;
+  padding: 8px 10px;
+  width: 35vh;
+  border-radius: 5px;
+  margin-top: 1vh;
+  align-items: center;
+  text-align: center;
+  margin-left: 12%;
+
+}
+
+/*===========fim===============*/
+
+/*===========Home===============*/
+
+
+.tela-inicial {
+  width: 600px;
+  margin: 0 auto;
+  flex-direction: column;
+  margin-top: 100px;
+  padding: 2vh 0 0 3vh;
+  background-color: none;
+
+}
+
+.texto {
+  margin-bottom: 20px;
+  top: 50%;
+  left: 50%;
+
+}
+
+.tela-inicial h1,
+h2 {
+  color: #def7f4;
+  margin: 0 auto;
+  padding: 2vh 0 0 3vh;
+  align-items: center;
+
+}
+
+.tela-hist {
+  width: 600px;
+  margin-bottom: auto;
+  margin: 0 auto;
+  flex-direction: column;
+  margin: 0 auto;
+  margin: 0 auto;
+  padding: 10vh 0 0 3vh;
+
+}
+
+
+
+  .tela-hist a:hover {
+      text-decoration: underline;
+      color: #EDB900;
+  
+    }
+    .tela-hist a:link {
+      color: #00F;
+  
+    }
+.tela-hist h1 {
+  font-size-adjust: none;
+  color: #def7f4;
+
+}
+.tela-hist h2 {
+  font-size-adjust: none;
+  color: #def7f4;
+  margin-top: 40px;
+
+
+}
+.tela-hist p {
+  font-size-adjust: none;
+  color: #def7f4;
+  font-size: 14px;
+  text-size-adjust: auto;
+  text-justify: auto;
+
+}
+
+
+
+
+
+
+
+
+/*----------------------fim--------------------- ----*/
+
+/* ------------------cadastro-------------------------*/
+
+
+.contanier-cadastro {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2px 0 0 30px;
+  margin-top: 10vh;
+
+}
+
+.cadastro form {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5vh;
+}
+
+.cadastro input {
+  width: 39vh;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 2vh;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cadastro button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 30vh;
+  margin-left: 7vh;
+}
+
+/*-------------------fim------------------------------ ----*/
+
+
+
+
+
+/* ------Escolha-espoter------------ */
+
+
+.esporte {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2vh 0 0 3vh;
+  margin-top: 10vh;
+
+
+}
+
+.esporte img {
+  width: 10vh;
+  border-radius: 10px;
+  margin-bottom: -2vh;
+
+
+}
+
+#esporte-volei button {
+  background-color: #007bff;
+  color: #121111;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 30vh;
+  height: 30vh;
+  padding: 20vh 0 0 10vh;
+  margin-bottom: 8vh;
+  background-image: url(../img/volei.webp);
+  background-size: cover;
+}
+
+
+#esporte-tenis button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 30vh;
+  height: 30vh;
+  padding: 20vh 0 0 10vh;
+  margin-bottom: 5vh;
+  background-image: url(../img/tenis.jpg);
+
+}
+#esporte-volei{
+  margin-top: 5vh;
+
+}
+/*---------------------------fim-----------------------------------*/
+
+
+
+/* -----Organização de Partidas de Vôlei ---- */
+
+.organizar-volei h3 {
+  font-size: 13px;
+
+}
+
+.organizar-volei {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0 0 1px;
+
+}
+
+.organizar-volei textarea {
+  background-color: none;
+  width: 36vh;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 2vh;
+  margin-left: 40px;
+
+}
+
+.organizar-volei form {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5vh;
+  padding: 0 0 0 3px;
+  margin-top: 20px;
+}
+
+.organizar-volei input {
+  background-color: none;
+  width: 36vh;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 2vh;
+  margin-left: 40px;
+}
+
+.organizar-volei button {
+  position: absolute;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 30vh;
+  margin-left: 70px;
+}
+
+
+
+/*----------fim---------- ----*/
+
+
+
+/* ------Organização de Partidas de Tênis de Mesa ----------- */
+
+.contanier-tenis {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2px 0 0 30px;
+  margin-top: 10vh;
+
+}
+
+.organizar-tenis {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0 0 1px;
+}
+
+
+.organizar-tenis form {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5vh;
+  padding: 0 0 0 3px;
+  margin-top: 20px;
+}
+
+.organizar-tenis input {
+  background-color: none;
+  width: 36vh;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 2vh;
+  margin-left: 40px;
+}
+
+.organizar-tenis button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 70px;
+}
+
+
+
+
+
+/*----------fim---------- ----*/
+@media only screen and (max-width: 600px) {
+
+  /* Estilos para telas menores que 600px */
+  button[type="button"] {
+    background-color: #ff7700;
+    color: #111212;
+    border: none;
+    cursor: pointer;
+    padding: 2px 1px 0;
+    margin-left: 10px;
+
+  }
+
+
+
+  a {
+    font-size: 10px;
+    margin-left: 3px;
+  }
+
+  p {
+    font-size: 10px;
+    margin-left: 10px;
+  }
+
+  h1 {
+    font-size: 15px;
+    margin-left: 10px;
+  }
+
+
+  .contanier-login {
+    height: 1vh;
+    margin-top: 1vh;
+    margin-left: 9vh;
+    background-color: none;
+
+
+  }
+
+  .form-login>form {
+    flex-direction: column;
+    position: relative;
+    margin-top: 50%;
+    border-radius: 10px;
+    background-color: #EDB900;
+  }
+
+  .form-login input {
+    width: 30vh;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 1vh;
+    margin-left: 1%;
+    margin-top: 2%;
+  }
+
+  button[type="button"] {
+    background-color: #000551;
+    color: #def7f4;
+    border: none;
+    cursor: pointer;
+    padding: 8px 10px;
+    width: 35vh;
+    border-radius: 5px;
+    margin-top: 1vh;
+    align-items: center;
+    text-align: center;
+    margin-left: 1%;
+
+  }
+
+  /*===============home========*/
+
+    .tela-inicial {
+      width: 200px;
+      margin: 0 auto;
+      flex-direction: column;
+      margin-top: 10px;
+      padding: 2vh 0 0 3vh;
+      background-color: none;
+  
+    }
+  
+    .texto {
+   
+     
+    }
+  
+    #tela-inicial h1,
+    h2 {
+      color: #dedff7;
+      margin: 0 auto;
+      padding: 2vh 0 0 3vh;
+      align-items: center;
+  
+    }
+}
+/* Estilos para telas menores, como tablets */
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 14px;
+
+    nav.menu-lateral.expandir {
+      position: absolute;
+      width: 300px;
+
+    }
+  }
+}
+
+/* Estilos para telas ainda menores, como smartphones */
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 13px;
+
+  }
+    .tela-hist {
+      width: 200px;
+      margin-bottom: auto;
+      margin: 0 auto;
+      flex-direction: column;
+      margin: 0 auto;
+      padding: 1vh 0 0 2vh;
+  
+    }
+  
+   
+}
