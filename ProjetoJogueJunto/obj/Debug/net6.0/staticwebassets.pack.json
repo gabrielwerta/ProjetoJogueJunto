@@ -49,14 +49,6 @@
       "PackagePath": "staticwebassets\\img\\IFB-redonda.png"
     },
     {
-      "Id": "C:\\Users\\Gabriel Werta\\source\\repos\\ProjetoJogueJunto\\ProjetoJogueJunto\\wwwroot\\img\\Tenis mesa.png",
-      "PackagePath": "staticwebassets\\img\\Tenis mesa.png"
-    },
-    {
-      "Id": "C:\\Users\\Gabriel Werta\\source\\repos\\ProjetoJogueJunto\\ProjetoJogueJunto\\wwwroot\\img\\Volei.png",
-      "PackagePath": "staticwebassets\\img\\Volei.png"
-    },
-    {
       "Id": "C:\\Users\\Gabriel Werta\\source\\repos\\ProjetoJogueJunto\\ProjetoJogueJunto\\wwwroot\\img\\logo JogueJunto (1).png",
       "PackagePath": "staticwebassets\\img\\logo JogueJunto (1).png"
     },
@@ -65,8 +57,8 @@
       "PackagePath": "staticwebassets\\img\\tenis.jpg"
     },
     {
-      "Id": "C:\\Users\\Gabriel Werta\\source\\repos\\ProjetoJogueJunto\\ProjetoJogueJunto\\wwwroot\\img\\volei.webp",
-      "PackagePath": "staticwebassets\\img\\volei.webp"
+      "Id": "C:\\Users\\Gabriel Werta\\source\\repos\\ProjetoJogueJunto\\ProjetoJogueJunto\\wwwroot\\img\\volei.jpg",
+      "PackagePath": "staticwebassets\\img\\volei.jpg"
     },
     {
       "Id": "C:\\Users\\Gabriel Werta\\source\\repos\\ProjetoJogueJunto\\ProjetoJogueJunto\\wwwroot\\js\\color-modes.js",

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "nnTlamEb3yUCNW8vd4H4rYPrNXEl+QVl4b9CVN8R074=",
+  "Hash": "tUVfRKEVl4tkpSji/V6T4TJfEFgKqoSPcveR/DUw144=",
   "Source": "ProjetoJogueJunto",
   "BasePath": "_content/ProjetoJogueJunto",
   "Mode": "Default",
@@ -264,25 +264,6 @@
       "OriginalItemSpec": "wwwroot\\img\\logo JogueJunto (1).png"
     },
     {
-      "Identity": "C:\\Users\\Gabriel Werta\\source\\repos\\ProjetoJogueJunto\\ProjetoJogueJunto\\wwwroot\\img\\Tenis mesa.png",
-      "SourceId": "ProjetoJogueJunto",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Gabriel Werta\\source\\repos\\ProjetoJogueJunto\\ProjetoJogueJunto\\wwwroot\\",
-      "BasePath": "_content/ProjetoJogueJunto",
-      "RelativePath": "img/Tenis mesa.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\Tenis mesa.png"
-    },
-    {
       "Identity": "C:\\Users\\Gabriel Werta\\source\\repos\\ProjetoJogueJunto\\ProjetoJogueJunto\\wwwroot\\img\\tenis.jpg",
       "SourceId": "ProjetoJogueJunto",
       "SourceType": "Discovered",
@@ -302,12 +283,12 @@
       "OriginalItemSpec": "wwwroot\\img\\tenis.jpg"
     },
     {
-      "Identity": "C:\\Users\\Gabriel Werta\\source\\repos\\ProjetoJogueJunto\\ProjetoJogueJunto\\wwwroot\\img\\Volei.png",
+      "Identity": "C:\\Users\\Gabriel Werta\\source\\repos\\ProjetoJogueJunto\\ProjetoJogueJunto\\wwwroot\\img\\volei.jpg",
       "SourceId": "ProjetoJogueJunto",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Gabriel Werta\\source\\repos\\ProjetoJogueJunto\\ProjetoJogueJunto\\wwwroot\\",
       "BasePath": "_content/ProjetoJogueJunto",
-      "RelativePath": "img/Volei.png",
+      "RelativePath": "img/volei.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -318,26 +299,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\Volei.png"
-    },
-    {
-      "Identity": "C:\\Users\\Gabriel Werta\\source\\repos\\ProjetoJogueJunto\\ProjetoJogueJunto\\wwwroot\\img\\volei.webp",
-      "SourceId": "ProjetoJogueJunto",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Gabriel Werta\\source\\repos\\ProjetoJogueJunto\\ProjetoJogueJunto\\wwwroot\\",
-      "BasePath": "_content/ProjetoJogueJunto",
-      "RelativePath": "img/volei.webp",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\volei.webp"
+      "OriginalItemSpec": "wwwroot\\img\\volei.jpg"
     },
     {
       "Identity": "C:\\Users\\Gabriel Werta\\source\\repos\\ProjetoJogueJunto\\ProjetoJogueJunto\\wwwroot\\js\\color-modes.js",

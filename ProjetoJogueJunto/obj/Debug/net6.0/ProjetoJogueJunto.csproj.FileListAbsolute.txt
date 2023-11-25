@@ -64,3 +64,4 @@ C:\Users\Gabriel Werta\source\repos\ProjetoJogueJunto\ProjetoJogueJunto\bin\Debu
 C:\Users\Gabriel Werta\source\repos\ProjetoJogueJunto\ProjetoJogueJunto\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
 C:\Users\Gabriel Werta\source\repos\ProjetoJogueJunto\ProjetoJogueJunto\obj\Debug\net6.0\ProjetoJogueJunto.csproj.AssemblyReference.cache
 C:\Users\Gabriel Werta\source\repos\ProjetoJogueJunto\ProjetoJogueJunto\obj\Debug\net6.0\ProjetoJogueJunto.csproj.CopyComplete
+C:\Users\Gabriel Werta\source\repos\ProjetoJogueJunto\ProjetoJogueJunto\obj\Debug\net6.0\ProjetoJogueJunto.sourcelink.json

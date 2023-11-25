@@ -13,7 +13,7 @@ namespace ProjetoJogueJunto.Repositorios
 
         public CadastroModel BuscarPorLogin(string login)
         {
-            return _bancoContext.Cadastros.FirstOrDefault(x => x.Email == login);
+            return _bancoContext.Cadastros.FirstOrDefault(x => x.Email.ToUpper() == login.ToUpper());
         }
 
         public CadastroModel Cadastrar(CadastroModel cadastro)

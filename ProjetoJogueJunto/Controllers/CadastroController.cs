@@ -21,7 +21,7 @@ namespace ProjetoJogueJunto.Controllers
             if (ModelState.IsValid)
             {
                 _cadastroRepositorio.Cadastrar(cadastro);
-                return RedirectToAction("Index");
+                return RedirectToAction("Index", "Escolha");
             }
             return View("Index", cadastro);
             

@@ -1,0 +1,23 @@
+﻿@{
+    ViewData["Title"] = "Cadastrar usuário";
+    Layout = "_Layout";
+}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="~/css/pagina-escolha.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <script src="js/menu.js" defer></script>
+</head>
+
+<div class="esporte">
+    <h2>Escolha o Esporte</h2>
+
+    <div id="esporte-volei">
+        <a asp-controller="Escolha" asp-action="CriarVolei"><button>Vôlei</button></a>
+    </div>
+    <div id="esporte-tenis">
+        <a asp-controller="Escolha" asp-action="CriarTenis"><button>Tênis de Mesa</button></a>
+    </div>
+</div>

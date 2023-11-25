@@ -22,7 +22,7 @@ namespace ProjetoJogueJunto.Controllers
                     {
                         if (cadastro.SenhaValida(loginModel.Senha))
                         {
-                            return RedirectToAction("Index", "Home");
+                            return RedirectToAction("Index", "Escolha");
                         }
                         
                     }
